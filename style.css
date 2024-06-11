@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width:100%;
+    height:100%;
+}
+.cont{
+    width: 100%;
+    
+}
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.background{
+    width: 100%;
+    height: 200px;
+    border-bottom: 2px solid black;
+}
+.img1 {
+    position: absolute;
+    width: 100px;
+    left: 89px;
+    top: 290px;
+}
+.img2{
+    width: 100px;
+    position: relative;
+    top: 98px;
+}
+.run{
+    animation: run 5s linear infinite;
+}
+@keyframes run{
+    to{
+        transform:translateX(1050%);
+    }from{
+        transform: translateX(0%);
+    }
+}
+.immi{
+    position: relative;
+    width: 112px;
+    
+}
+.scl{
+    position: absolute;
+    width: 100%;
+    left: 1100px;
+}
